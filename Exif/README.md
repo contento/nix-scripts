@@ -6,7 +6,7 @@ Use exiftool to organize your assets by date (year/month/day).
 
 ```shell
 # Specify the folder containing your assets
-folder='1998'
+folder='./assets/photos/todo'
 
 # Show date information
 exiftool -r -time:all -a -G0:1 -s "$folder"
